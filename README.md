@@ -8,8 +8,8 @@
 
 <!--@shields.flatSquare('npm', 'travis', 'coveralls')-->
 [![NPM version](https://img.shields.io/npm/v/independent.svg?style=flat-square)](https://www.npmjs.com/package/independent)
-[![Build status](https://img.shields.io/travis/zkochan/independent.svg?style=flat-square)](https://travis-ci.org/zkochan/independent)
-[![Test coverage](https://img.shields.io/coveralls/zkochan/independent.svg?style=flat-square)](https://coveralls.io/r/zkochan/independent?branch=master)
+[![Build status for master](https://img.shields.io/travis/zkochan/independent/master.svg?style=flat-square)](https://travis-ci.org/zkochan/independent)
+[![Test coverage for master](https://img.shields.io/coveralls/zkochan/independent/master.svg?style=flat-square)](https://coveralls.io/r/zkochan/independent?branch=master)
 <!--/@-->
 
 <!--@installation()-->
@@ -52,7 +52,7 @@ independent({
 * * *
 
 <!--@dependencies({ shield: 'flat-square' })-->
-## Dependencies [![Dependency status](https://img.shields.io/david/zkochan/independent.svg?style=flat-square)](https://david-dm.org/zkochan/independent)
+## Dependencies [![Dependency status for master](https://img.shields.io/david/zkochan/independent/master.svg?style=flat-square)](https://david-dm.org/zkochan/independent/master)
 
 - [@zkochan/async-replace](https://github.com/zkochan/async-replace): Regex replacements using asynchronous callback functions
 - [read-pkg-up](https://github.com/sindresorhus/read-pkg-up): Read the closest package.json file
@@ -62,7 +62,7 @@ independent({
 <!--/@-->
 
 <!--@devDependencies({ shield: 'flat-square' })-->
-## Dev Dependencies [![devDependency status](https://img.shields.io/david/dev/zkochan/independent.svg?style=flat-square)](https://david-dm.org/zkochan/independent#info=devDependencies)
+## Dev Dependencies [![devDependency status for master](https://img.shields.io/david/dev/zkochan/independent/master.svg?style=flat-square)](https://david-dm.org/zkochan/independent/master#info=devDependencies)
 
 - [chai](https://github.com/chaijs/chai): BDD/TDD assertion library for node.js and the browser. Test framework agnostic.
 - [cz-conventional-changelog](https://github.com/commitizen/cz-conventional-changelog): Commitizen adapter following the conventional-changelog format.
