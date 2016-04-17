@@ -1,8 +1,10 @@
 {
   "name": "independent",
+  "version": "0.0.0-placeholder",
   "description": "Change relative requires to import actual modules",
   "files": [
-    "index.js"
+    "index.js",
+    "lib"
   ],
   "main": "index.js",
   "scripts": {
