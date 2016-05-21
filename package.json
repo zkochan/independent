@@ -37,6 +37,11 @@
     "url": "https://github.com/zkochan/independent/issues"
   },
   "homepage": "https://github.com/zkochan/independent#readme",
+  "mos": {
+    "installation": {
+      "useShortAlias": true
+    }
+  },
   "dependencies": {
     "@zkochan/async-replace": "0.3.0",
     "read-pkg-up": "1.0.1",
@@ -53,7 +58,7 @@
     "ghooks": "1.2.1",
     "istanbul": "^0.4.2",
     "mocha": "^2.3.4",
-    "mos": "0.11.1",
+    "mos": "^1.1.1",
     "semantic-release": "^4.3.5",
     "validate-commit-msg": "2.6.0"
   },

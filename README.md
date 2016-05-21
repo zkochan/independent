@@ -1,26 +1,20 @@
-<!--@'# ' + package.name-->
+<!--@'# ' + pkg.name-->
 # independent
 <!--/@-->
 
-<!--@'> ' + package.description-->
+<!--@'> ' + pkg.description-->
 > Change relative requires to import actual modules
 <!--/@-->
 
 <!--@shields.flatSquare('npm', 'travis', 'coveralls')-->
-[![NPM version](https://img.shields.io/npm/v/independent.svg?style=flat-square)](https://www.npmjs.com/package/independent)
-[![Build status for master](https://img.shields.io/travis/zkochan/independent/master.svg?style=flat-square)](https://travis-ci.org/zkochan/independent)
-[![Test coverage for master](https://img.shields.io/coveralls/zkochan/independent/master.svg?style=flat-square)](https://coveralls.io/r/zkochan/independent?branch=master)
+[![npm version](https://img.shields.io/npm/v/independent.svg?style=flat-square)](https://www.npmjs.com/package/independent) [![Build Status](https://img.shields.io/travis/zkochan/independent/master.svg?style=flat-square)](https://travis-ci.org/zkochan/independent) [![Coverage Status](https://img.shields.io/coveralls/zkochan/independent/master.svg?style=flat-square)](https://coveralls.io/r/zkochan/independent?branch=master)
 <!--/@-->
 
-<!--@installation()-->
 ## Installation
 
-This module is installed via npm:
-
-``` sh
-npm install independent --save
+```sh
+npm i -S independent
 ```
-<!--/@-->
 
 ## Usage
 
@@ -43,16 +37,14 @@ independent({
 //> import sum from 'foo/sum'
 ```
 
-<!--@license()-->
 ## License
 
 [MIT](./LICENSE) © [Zoltan Kochan](http://kochan.io)
-<!--/@-->
 
 * * *
 
 <!--@dependencies({ shield: 'flat-square' })-->
-## Dependencies [![Dependency status for master](https://img.shields.io/david/zkochan/independent/master.svg?style=flat-square)](https://david-dm.org/zkochan/independent/master)
+## <a name="dependencies">Dependencies</a> [![dependency status](https://img.shields.io/david/zkochan/independent/master.svg?style=flat-square)](https://david-dm.org/zkochan/independent/master)
 
 - [@zkochan/async-replace](https://github.com/zkochan/async-replace): Regex replacements using asynchronous callback functions
 - [read-pkg-up](https://github.com/sindresorhus/read-pkg-up): Read the closest package.json file
@@ -62,7 +54,7 @@ independent({
 <!--/@-->
 
 <!--@devDependencies({ shield: 'flat-square' })-->
-## Dev Dependencies [![devDependency status for master](https://img.shields.io/david/dev/zkochan/independent/master.svg?style=flat-square)](https://david-dm.org/zkochan/independent/master#info=devDependencies)
+## <a name="dev-dependencies">Dev Dependencies</a> [![devDependency status](https://img.shields.io/david/dev/zkochan/independent/master.svg?style=flat-square)](https://david-dm.org/zkochan/independent/master#info=devDependencies)
 
 - [chai](https://github.com/chaijs/chai): BDD/TDD assertion library for node.js and the browser. Test framework agnostic.
 - [cz-conventional-changelog](https://github.com/commitizen/cz-conventional-changelog): Commitizen adapter following the conventional-changelog format.
@@ -73,7 +65,7 @@ independent({
 - [ghooks](https://github.com/gtramontina/ghooks): Simple git hooks
 - [istanbul](https://github.com/gotwarlost/istanbul): Yet another JS code coverage tool that computes statement, line, function and branch coverage with module loader hooks to transparently add coverage when running tests. Supports all JS coverage use cases including unit tests, server side functional tests
 - [mocha](https://github.com/mochajs/mocha): simple, flexible, fun test framework
-- [mos](https://github.com/zkochan/mos): A pluggable module that injects content into your markdown files via hidden JavaScript snippets
+- [mos](https://github.com/mosjs/mos): A pluggable module that injects content into your markdown files via hidden JavaScript snippets
 - [semantic-release](https://github.com/semantic-release/semantic-release): automated semver compliant package publishing
 - [validate-commit-msg](https://github.com/kentcdodds/validate-commit-msg): Script to validate a commit message follows the conventional changelog standard
 
