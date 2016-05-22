@@ -46,7 +46,8 @@ independent({
 <!--@dependencies({ shield: 'flat-square' })-->
 ## <a name="dependencies">Dependencies</a> [![dependency status](https://img.shields.io/david/zkochan/independent/master.svg?style=flat-square)](https://david-dm.org/zkochan/independent/master)
 
-- [@zkochan/async-replace](https://github.com/zkochan/async-replace): Regex replacements using asynchronous callback functions
+- [babel-runtime](https://github.com/babel/babel/blob/master/packages): babel selfContained runtime
+- [@zkochan/async-replace](https://github.com/zkochan/async-replace): String replace using asynchronous replacement functions
 - [read-pkg-up](https://github.com/sindresorhus/read-pkg-up): Read the closest package.json file
 - [relative](https://github.com/jonschlinkert/relative): Get the relative filepath from path A to path B. Calculates from file-to-directory, file-to-file, directory-to-file, and directory-to-directory.
 - [resolve](https://github.com/substack/node-resolve): resolve like require.resolve() on behalf of files asynchronously and synchronously
@@ -56,6 +57,11 @@ independent({
 <!--@devDependencies({ shield: 'flat-square' })-->
 ## <a name="dev-dependencies">Dev Dependencies</a> [![devDependency status](https://img.shields.io/david/dev/zkochan/independent/master.svg?style=flat-square)](https://david-dm.org/zkochan/independent/master#info=devDependencies)
 
+- [babel-cli](https://github.com/babel/babel/blob/master/packages): Babel command line.
+- [babel-plugin-add-module-exports](https://github.com/59naga/babel-plugin-add-module-exports): Fix babel/babel#2212
+- [babel-plugin-transform-runtime](https://github.com/babel/babel/blob/master/packages): Externalise references to helpers and builtins, automatically polyfilling your code without polluting globals
+- [babel-preset-es2015](https://github.com/babel/babel/blob/master/packages): Babel preset for all es2015 plugins.
+- [babel-register](https://github.com/babel/babel/blob/master/packages): babel require hook
 - [chai](https://github.com/chaijs/chai): BDD/TDD assertion library for node.js and the browser. Test framework agnostic.
 - [cz-conventional-changelog](https://github.com/commitizen/cz-conventional-changelog): Commitizen adapter following the conventional-changelog format.
 - [eslint](https://github.com/eslint/eslint): An AST-based pattern checker for JavaScript.

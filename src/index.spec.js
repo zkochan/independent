@@ -1,10 +1,8 @@
-'use strict'
-const describe = require('mocha').describe
-const it = require('mocha').it
-const expect = require('chai').expect
-const fs = require('fs')
-const path = require('path')
-const independent = require('.')
+import {describe, it} from 'mocha'
+import {expect} from 'chai'
+import fs from 'fs'
+import path from 'path'
+import independent from './index'
 
 describe('independent', () => {
   it('should replace relative require path with package name', () => {

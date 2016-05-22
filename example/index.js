@@ -1,5 +1,5 @@
 'use strict'
-const independent = require('..')
+const independent = require('../dist/index')
 
 independent({
   code: "require('./bar')",

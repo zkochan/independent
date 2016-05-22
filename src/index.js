@@ -1,13 +1,10 @@
-'use strict'
-module.exports = independent
+import path from 'path'
+import resolve from 'resolve'
+import relative from 'relative'
+import readPkgUp from 'read-pkg-up'
+import asyncReplace from '@zkochan/async-replace'
 
-const path = require('path')
-const resolve = require('resolve')
-const relative = require('relative')
-const readPkgUp = require('read-pkg-up')
-const asyncReplace = require('@zkochan/async-replace')
-
-function independent (opts) {
+export default function independent (opts) {
   opts = opts || {}
 
   if (!opts.code) throw new Error('opts.code is required')
